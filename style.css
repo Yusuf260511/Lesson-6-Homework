@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+body {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+    background-color: #FAFAFA;
+    border: 1px solid black;
+    font-family: "Inter", sans-serif;
+}
+
+.b2img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    width: 100%;
+    height: 140px;
+    border: 2px solid #DEDBDB;
+    background-color: white;
+    padding: 46px 178px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lan {
+    font-weight: 700;
+    font-style: 36px;
+    color: #424242;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 14.83px;
+}
+
+form {
+    width: 650px;
+    height: 786px;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 66px;
+    padding-left: 65px;
+    padding-right: 50px;
+}
+
+.secondimg {
+    width: 150px;
+    height: 40px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #F0400F;
+}
+
+.offerta {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.enter {
+    width: 27px;
+    height: 23px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #0E0D5D;
+    text-align: center;
+    margin-top: 127px;
+}
+
+.choose {
+    width: 533px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-left: 11px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.student {
+    width: 255px;
+    height: 54px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+
+.studenth2 {
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+
+.parentsh2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #757575;
+    line-height: 33.89px;
+}
+
+input {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid #75757530;
+    margin-top: 39px;
+    background-color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+    padding-left: 51px;
+    color: black;
+}
+
+input::placeholder {
+    color: #757575B2;
+}
+
+.input-with-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-with-icon input {
+    width: 100%;
+    padding-left: 40px; /* Отступ для иконки */
+}
+
+.input-with-icon img {
+    position: absolute;
+    left: 490px;
+    top: 65px;
+    width: 20px;
+    height: 20px;
+}
+
+.qr {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000A3;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.submit {
+    width: 202px;
+    height: 67px;
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #F0400F;
+    margin-top: 31px;
+    margin-right: 58px;
+    margin-left: 330px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    border: none;
+}
+
+.submit:hover {
+    transition: 0.5s;
+    background-color: #F0400F;
+}
+
+.submit:disabled {
+    background-color: #F69E86;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.body2 {
+    background-color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-nav {
+    width: 100%;
+    height: 68.8px;
+    background-color: white;
+    padding: 10px 120px 10px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_img {
+    width: 100px;
+}
+
+.header-nav-ul {
+    display: flex;
+    gap: 26px;
+}
+
+.header-nav-ul li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #AAAAAA;
+}
+
+.header-nav-ul li:hover {
+    font-size: 18px;
+    font-weight: 500;
+    color: #EF400F;
+}
+
+#li1 {
+    border-bottom: 2px solid #EF400F;
+    font-weight: 500;
+    color: #EF400F;
+}
+
+.logo-img {
+    height: 38px;
+}
+
+.main {
+    margin-top: 40px;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1_h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #0E0D5D;
+}
+
+.main-div1-div {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.main-div1-div_h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0D5D;
+}
+
+.main-div1-div_p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #212121;
+}
+
+.main1-div1-div-coins {
+    width: 100%;
+    height: 62px;
+    background: linear-gradient(286deg, #e33d0e, #ff7d58);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+}
+
+.main-div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div2_img {
+    width: 868px;
+}
+
+.div2_img2 {
+    width: 868px;
+}
